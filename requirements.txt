@@ -1,6 +1,7 @@
-requests
 streamlit
 spacy
-openai
+requests
 pandas
-en-core-web-sm
+openai
+pyyaml
+
