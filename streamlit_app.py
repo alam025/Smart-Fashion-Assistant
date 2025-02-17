@@ -1,6 +1,26 @@
+import spacy
 import streamlit as st
-st.title("Test Streamlit App")
-st.write("Streamlit is working!")
+import openai
+import requests
+import pandas as pd
+import yaml
+
+# Initialize spaCy
+nlp = spacy.load("en_core_web_sm")
+
+# Define your agent response function
+def agent_response(query):
+    # Logic from agent.py
+    return f"Processed query: {query}"
+
+# Streamlit app layout
+st.title("🛍️ AI Fashion Shopping Assistant")
+st.write("Ask me about product searches, shipping estimates, discounts, price comparisons, or return policies!")
+
+query = st.text_input("Enter your request:")
+if st.button("Submit"):
+    response = agent_response(query)
+    st.write(response)
 
 
 
