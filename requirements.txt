@@ -1,6 +1,6 @@
-streamlit
-spacy
-requests
+streamlit==1.15.0
+spacy==3.3.0
+requests==2.26.0
 pandas
 openai
 pyyaml
