@@ -8,3 +8,7 @@ requests==2.26.0
 pandas==1.3.3
 openai==0.27.0
 pyyaml==6.0
+markdown-it-py==2.1.0   # Adjust version to avoid issues
+rich==10.14.0           # Specify a compatible version
+pygments==2.13.0        # Use a stable version of Pygments
+mdurl==0.1.1            # Stable version
