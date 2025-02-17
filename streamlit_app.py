@@ -1,11 +1,18 @@
 import spacy
 import streamlit as st
+from spacy.cli import download
 
-# Load spaCy model
-nlp = spacy.load("en_core_web_sm")
+# Try loading spaCy model, and download it if necessary
+try:
+    nlp = spacy.load("en_core_web_sm")
+except:
+    st.write("Downloading spaCy model...")
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 st.title("AI Fashion Assistant")
-st.write("Simple test: spaCy model loaded.")
+st.write("spaCy model loaded successfully!")
+
 
 
 
