@@ -161,3 +161,10 @@ Multi-Platform Support: Adding support for more e-commerce platforms and payment
 </p>
 
 
+<hr>
+
+
+<h2>Output</h2>
+
+![Screenshot 2025-02-17 233332](https://github.com/user-attachments/assets/bf7c12a1-2d34-4c87-bd49-65a93958c7ca)
+![Screenshot 2025-02-17 233342](https://github.com/user-attachments/assets/86849a81-267f-45fe-9da1-c6c632040a02)
