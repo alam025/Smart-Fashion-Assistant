@@ -1,2 +1,6 @@
-streamlit
 requests
+streamlit
+spacy
+openai
+pandas
+en-core-web-sm
